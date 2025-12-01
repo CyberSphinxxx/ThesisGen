@@ -1,4 +1,4 @@
-# ThesisNexus Cloud
+# ThesisGen
 
 A production-grade, single-file React application for thesis management, powered by AI and Cloud Sync.
 

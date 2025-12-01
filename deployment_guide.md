@@ -1,6 +1,6 @@
 # Vercel Deployment Guide
 
-This guide explains how to deploy **ThesisNexus Cloud** to Vercel.
+This guide explains how to deploy **ThesisGen** to Vercel.
 
 ## Prerequisites
 

@@ -178,7 +178,7 @@ function SetupScreen({ onSave, onDemo }) {
   return (
     <div className="h-screen flex flex-col items-center justify-center p-4 max-w-md mx-auto">
       <div className="mb-8 text-center">
-        <h1 className="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent mb-2">ThesisNexus Cloud</h1>
+        <h1 className="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent mb-2">ThesisGen</h1>
         <p className={`${THEME.textMuted}`}>System Configuration Required</p>
       </div>
 
@@ -347,7 +347,7 @@ function Launchpad({ user, db, ai, onProjectCreated, showNotification }) {
   return (
     <div className="h-screen flex flex-col items-center justify-center p-4 max-w-4xl mx-auto">
       <div className="mb-8 text-center">
-        <h1 className="text-5xl font-bold mb-2"><span className="text-cyan-400">Thesis</span>Nexus</h1>
+        <h1 className="text-5xl font-bold mb-2"><span className="text-cyan-400">Thesis</span>Gen</h1>
         <p className="text-xl text-slate-400">Launchpad</p>
       </div>
 
@@ -410,9 +410,9 @@ function Workspace({ user, project, db, ai, isDemo, onLogout, showNotification }
         <div className="p-6 border-b border-slate-800">
           <div className="flex items-center gap-2 font-bold text-xl tracking-tight">
             <div className="w-8 h-8 rounded bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center">
-              <span className="text-white text-sm">TN</span>
+              <span className="text-white text-sm">TG</span>
             </div>
-            ThesisNexus
+            ThesisGen
           </div>
         </div>
 
